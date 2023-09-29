@@ -1,43 +1,52 @@
-
+header {
+    text-align: center;
+    margin: 20px 0;
+}
 h1 {
     font-size: 5em; 
     font-weight: bold;
-    margin-top: 10px;
-    margin-left: -70px;
-    border-bottom: 10px solid #8C19FF; 
+    margin-top: 20px;
+    margin-left: 0px;
+    padding-bottom: 10px; 
+    border-bottom: 2px solid #8C19FF; 
 }
 
-
 h2 {
-    font-size: 2em; 
+    font-size: 3em; 
     font-style: italic;
-    margin-top: 0px; 
-    margin-left: -70px;
+    margin-top: 10px; 
+    margin-left: 0px;
 }
 body {
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
-	color: #000000;
-	background: #cfd15ce4;
-	margin: 400px;
-    padding: 10px;
-    text-align: left;
+	color: #ffffff;
+	background:white url(https://climate.nasa.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBam91IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--ff94817ad208ae48b26608ffb5d5ce1af0379e0a/water.jpg?disposition=inline);
+    background-size: cover;
+	margin: 350px;
+    padding: 40px;
+    text-align: left; 
 }
 
+#zen-supporting {
+    padding: 20px;
+    background-color: rgba(39, 3, 68, 0.386); 
+    border-radius: 20px;
+}
 .sidebar {
     position: absolute;
     top: 600px;
     left: 0;
-    padding: 10;
+    padding: 20px;
     margin: 50px;
     width: 250px;
-    background:#a455f3;
+    background:linear-gradient(#04070700, #6511b3);   
     display: inline; 
-    border: 2px solid #8C19FF;
+    border: 3px solid transparent;
     border-radius: 20px;
     
 }
 a {
-    color: #000000; 
+    color: #fbd8f1; 
     text-decoration: none;
 }
 
@@ -46,9 +55,15 @@ a:hover {
     text-decoration: underline;
 }
 footer{
-    width: 600px;
-    padding-left: 50px ;
-    padding-right: 20px;
-    padding-bottom: 4px;
-    background: #b56bff;
+    
+    padding: 40px;
+    background: linear-gradient(#35a3a381, #aa5af5);
+    text-align: center;
+}
+.design-selection li {
+    margin-bottom: 10px;
+}
+.design-name {
+    font-weight: bold;
+    color: #dab9f9;
 }
